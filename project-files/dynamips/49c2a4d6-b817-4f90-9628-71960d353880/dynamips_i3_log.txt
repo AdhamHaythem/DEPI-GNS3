@@ -1,0 +1,30 @@
+Dec 04 03:53:01.107 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 04 03:53:01.109 HYPERVISOR: Started on IP = localhost, TCP port = 56964.
+Dec 04 03:53:01.587 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 04 03:53:01.587 HYPERVISOR: exec_cmd: hypervisor working_dir C:\University\Semester 8\Network Operation and Management\GNS3\projects\DEPI2\project-files\dynamips 
+Dec 04 03:53:01.587 GENERAL: working_dir=C:\University\Semester 8\Network Operation and Management\GNS3\projects\DEPI2\project-files\dynamips
+Dec 04 03:53:01.589 HYPERVISOR: exec_cmd: hypervisor working_dir C:\University\Semester 8\Network Operation and Management\GNS3\projects\DEPI2\project-files\dynamips\49c2a4d6-b817-4f90-9628-71960d353880 
+Dec 04 03:53:01.600 GENERAL: working_dir=C:\University\Semester 8\Network Operation and Management\GNS3\projects\DEPI2\project-files\dynamips\49c2a4d6-b817-4f90-9628-71960d353880
+Dec 04 03:53:01.600 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Dec 04 03:53:01.601 VM: VM R3 created.
+Dec 04 03:53:01.601 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Dec 04 03:53:01.601 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Dec 04 03:53:01.601 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 04 03:53:01.601 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Dec 04 03:53:01.604 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/adham/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12-1.image 
+Dec 04 03:53:01.605 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 04 03:53:01.605 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x641a83e4 
+Dec 04 03:53:01.605 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Dec 04 03:53:01.606 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Dec 04 03:53:01.606 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Dec 04 03:53:01.607 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 04 03:53:01.607 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-A1 
+Dec 04 03:53:01.679 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/adham/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12-1.image 
+Dec 04 03:53:39.199 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Dec 04 03:53:39.225 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\University\Semester 8\Network Operation and Management\GNS3\projects\DEPI2\project-files\dynamips\c7200-adventerprisek9-mz.153-3.XB12-1.image-256.ghost 
+Dec 04 03:53:39.225 HYPERVISOR: exec_cmd: vm get_status R3 
+Dec 04 03:53:39.283 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Dec 04 03:53:39.284 HYPERVISOR: exec_cmd: vm start R3 
+Dec 04 03:54:09.959 HYPERVISOR: exec_cmd: vm extract_config R3 
+Dec 04 04:03:16.183 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/adham/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12-1.image 
+Dec 04 04:03:19.935 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/adham/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12-1.image 
